@@ -1,0 +1,16 @@
+{
+  "name": "ljp006.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ljp006/ljp006.github.io.git",
+  "author": "lijunpeng <510808969@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
